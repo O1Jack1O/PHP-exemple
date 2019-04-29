@@ -85,7 +85,7 @@ if(isset($_POST['submited'])){
         $errors[] = 'Такой пользователь уже зарегистрирован в системе';
     }
     if ((mysqli_query($link, "SELECT * FROM users WHERE phoneNumber='$data[phoneNumber]';")->num_rows)>0){
-        $errors[] = 'Пользователь таким телефоном уже зарегистрирован в системе';
+        $errors[] = 'Пользователь с таким телефоном уже зарегистрирован в системе';
     }
 
     if(empty($errors)){
