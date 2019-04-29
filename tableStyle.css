@@ -1,0 +1,16 @@
+table {
+    text-align: center;
+    table-layout: auto;
+    width: auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+table.table1 td, table.table1 th {
+    border: 2px solid #AAAAAA;
+    padding: 5px 2px;
+}
+
+
+
+
